@@ -1,3 +1,5 @@
+***ASPECT BASED SPEECH EMOTION RECOGNITION***
+
 **Overview**
 - **Project**: Aspect-based Speech Emotion Recognition (ABSER).
 - **Short description**: Combines Aspect-Based Sentiment Analysis (ABSA) on text with a Wav2Vec2-based speech emotion recognizer to produce a final, human-friendly output describing customer sentiment/emotion and the aspect (e.g., food) being discussed.
@@ -42,7 +44,7 @@ pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
 ```
 
 **How to run the Streamlit app (local)**
-- From the project root (`d:\7th Semester\DL Project`):
+- From the project root:
 
 ```powershell
 # Activate virtual env if created
@@ -78,12 +80,3 @@ Open the URL printed by Streamlit (usually `http://localhost:8501`) in a browser
 - Wav2Vec2 and Transformers: Hugging Face `transformers` library.
 - Audio processing: `librosa`, `soundfile`.
 - Streamlit for the interactive UI.
-
-**Contact / Next steps**
-- If you want, I can:
-  - generate a `requirements.txt` from discovered imports,
-  - add a small `run_app.ps1` helper script for Windows,
-  - or create a minimal demo dataset and instructions to quickly reproduce results.
-
----
-README generated automatically. File path: `d:\7th Semester\DL Project\README.md`.
